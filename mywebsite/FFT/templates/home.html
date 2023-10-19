@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href="../static/css/style2 copy 2.css">
+        <title> home </title>
+    </head>
+<body>
+     <div class = "header">
+        <ul class="nav-list">
+               <li class="nav-item">Home</li>
+               <li class="nav-item"> About</li>
+               <li class="nav-item"> Contact</li>
+               <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+        </ul>        
+        </ul>  
+     </div>
+     <div class="container">
+        <form method="POST" enctype="multipart/form-data"  action="{% url 'process_transform' %}">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button name="fft_transform">FFT Transform</button>
+            <button name="sharpen_transform">Sharpen Transform</button> 
+            <button name="DFT_transform">DFT Transform</button>
+            <button name="welwet_transform">WELWET Transform</button>
+            <button name="guassian_transform">GUASSIAN Transform</button>
+            <button name="Laplacian_Filter">Laplacian Transform</button>
+            <button name="sobel_transform">SOBEL Transform</button>
+            <button name="mean_filter">MEAN Filter</button>
+            <button name="low_pass_filter">LOW Pass Filter</button>
+            <button name="Prewitt_Filter">Prewit Filter</button>
+            <button name="Roberts_Filter">Roberts Filter</button>
+            <button name="image_smoothing">Image smoothing</button>
+            <button name="Wavelet_Filter">Wavelet Filter</button>
+            <button name="median_filter">Median filter</button>
+        </form>                           
+     </div>
+</body>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Wallpoet', cursive;
+}
+
+body {
+    background-image: url(../image/4523.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 450px;
+    height: 400px;
+    box-shadow: #000000 0px 64px 256px;
+    margin: 110px auto;
+    border-radius: 5px;
+    padding: 60px 60px;
+    background-image: url(../image/3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+    margin-bottom: 10px;
+    font-family: fantasy;
+    color: rgb(167, 63, 199);
+    font-family: 'Wallpoet', cursive;
+}
+
+.container form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+}
+
+.container form button {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    background-color: rgb(82, 5, 84);
+    border-radius: 100px;
+    margin-bottom: 20px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.container form button:hover {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    background-color: #c441e1;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.container form .message {
+    font-size: 12px;
+    color: #c4dfc1;
+    margin: 15px;
+    font-size: small;
+    font-family: fantasy;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.container form .message a {
+    text-decoration: none;
+    color: rgb(47, 189, 214);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container form .message a:hover {
+    text-decoration: none;
+    color: #e3c3e6;
+    font-size: 12px;
+    font-weight: bold;
+}

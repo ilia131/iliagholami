@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+      
+    background-image: url(../image/4523.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+    
+
+.container {
+    
+    width: 400px ;
+    height: 550px;
+    margin: 110px auto;
+    border-radius: 8px;
+    padding: 40px 50px;
+    box-shadow:#000000 0px 64px 256px;
+}
+
+form input {
+
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+    border: 0;
+    outline: 0;
+    font-size: medium;
+    border-radius: 8px;
+    filter: blur(1px);
+}
+
+form input:hover {
+
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+    border: 0;
+    outline: 0;
+    font-size: medium;
+    border-radius: 8px;
+    filter: blur(0px);
+}
+   
+
+h3{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family:fantasy;
+    color: rgb(237, 237, 237);
+    text-align: center;
+    
+
+    
+}
+ 
+button {
+         
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    background-color: rgb(138, 26, 167);
+    font-family: fantasy;   
+
+}
+button:hover {
+         
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    background-color: #a21ce5;
+    font-family: fantasy;   
+}
+.message {
+
+    text-decoration: none;
+      color: rgb(25, 2, 46);
+      font-size: larger;
+      font-family: fantasy;
+    
+      
+}
+.message:hover {
+
+    text-decoration: none;
+      color: #73218b;
+      font-size: larger;
+      font-family: fantasy;
+}
+
+label{
+
+    font-family: fantasy;
+    color: rgb(153, 0, 241);
+    
+}
+

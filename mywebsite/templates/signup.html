@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href="../static/css/style3 copy.css">
+        <title> Sign up</title>
+    </head>
+    <body>
+     
+    </div>
+    <div class='container'>
+      <form action=" " method="post">
+        {% csrf_token %}
+        <h3>Signup Here !</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username" name="username" id ="username">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Email" name="email" id="email">
+
+        <label for="password1">Password</label>
+        <input type="password" placeholder="Password" name="password1" id="password">
+
+        <label for="password2">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" name='password2' id="password1">
+        <button type="submit">Signup</button>
+         
+        <a href="/Login/ " class="message">i Have already account</a>
+      </form>
+    </div>
+    </body>
+
+</html>
